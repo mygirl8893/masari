@@ -90,11 +90,7 @@ static const struct {
   uint8_t threshold;
   time_t time;
 } mainnet_hard_forks[] = {
-  { 1, 1, 0, 1504387246 },
-  { 2, 28000, 0, 1507601066 },
-  { 3, 63500, 0, 1512206452 },
-  { 4, 70000, 0, 1513136914 },
-  { 5, 170000, 0, 1525150523},
+  //{ 1, 1, 0, 1504387246 },
 };
 
 static const struct {
@@ -103,11 +99,7 @@ static const struct {
   uint8_t threshold;
   time_t time;
 } testnet_hard_forks[] = {
-  { 1, 1, 0, 1504374656 },
-  { 2, 21700, 0, 1507182919 },
-  { 3, 50900, 0, 1511981038 },
-  { 4, 55555, 0, 1512627130 },
-  { 5, 76030, 0, 1524112219 }
+  //{ 1, 1, 0, 1504374656 },
 };
 
 static const struct {
@@ -117,11 +109,11 @@ static const struct {
   time_t time;
 } stagenet_hard_forks[] = {
   // version 1 from the start of the blockchain
-  { 1, 1, 0, 1504374656 },
+  //{ 1, 1, 0, 1504374656 },
   // versions 2-4 in rapid succession from March 13th, 2018
-  { 2, 2, 0, 1521000000 },
+  /*{ 2, 2, 0, 1521000000 },
   { 3, 3, 0, 1521120000 },
-  { 4, 4, 0, 1521240000 },
+  { 4, 4, 0, 1521240000 },*/
 };
 
 //------------------------------------------------------------------
